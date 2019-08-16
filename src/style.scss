@@ -1,0 +1,240 @@
+@import '~mapbox-gl/dist/mapbox-gl.css';
+@import url("https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v3.1.6/mapbox-gl-geocoder.css");
+@import url("https://use.fontawesome.com/releases/v5.8.1/css/all.css");
+
+@import '~bulma';
+@import '~bulma-extensions/dist/css/bulma-extensions.min.css';
+
+@charset "utf-8";
+
+
+$bookerBlue: #246cc1;
+
+
+div.map-libraries {
+  width: 100vw;
+  height: calc(100vh - 3.25rem);
+}
+
+
+.bookerLogo {
+  border-radius: 6px;
+}
+
+.bookerHero {
+  max-width: 50%;
+  border-radius: 20px;
+  margin-top: 5vh;
+}
+
+
+.aboutText{
+  width: 100vw;
+}
+
+.backgroundHero {
+  height: 500px;
+  background-image: url(http://www.orjon.com/dev/booker/images/hero/bookshelf3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.aboutHero {
+  height: 500px;
+  background-image: url(http://www.orjon.com/dev/booker/images/about/about1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#root > div > nav {
+  background-color: $bookerBlue;
+}
+
+
+h1.title {
+  font-size: 4rem;
+
+}
+
+h4 {
+  font-size: 16px;
+  font-weight: 600;
+}
+h5 {
+  font-size: 14px;
+  font-weight: 600;
+}
+h6 {
+  font-size: 12px;
+}
+
+hr {
+  margin: 1rem 0px;
+  background-color: #d6e8ff;
+}
+
+.radio {
+  padding-right: 7px;
+}
+
+.card {
+  border: 1px solid lightgrey;
+  box-shadow: 0 0 3px #d6e8ff;
+}
+
+.navbar {
+  box-shadow: 0 0 20px #555;
+
+}
+
+.card-header {
+  box-shadow: none;
+  padding-top: 15px;
+}
+
+
+.switch {
+  margin-top: 10px;
+}
+
+.is-horizontal-center {
+  justify-content: center;
+}
+
+img.max-image-on-card {
+  max-height: 275px;
+}
+
+
+.bookCoverWrapper {
+  max-height: 75vh;
+}
+
+.buttonAddRating {
+  margin-right: 10px;
+}
+
+#bookCoverImage{
+  // height: 100%;
+  width: auto;
+  margin: 0 auto;
+}
+
+.bookDescription {
+  text-align: justify;
+}
+
+.bookReviews {
+ text-align: justify;
+}
+
+.button-add-book {
+  margin-right:1.5rem
+}
+
+.marker-libraries {
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-container {
+height: 90vh;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+.marker-libraries:before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: red;
+  z-index: -1;
+  border-radius: 50% 50% 0 50%;
+  transform: rotate(45deg);
+}
+
+.marker-user-library {
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.marker-user-library:before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: blue;
+  z-index: -1;
+  border-radius: 50% 50% 0 50%;
+  transform: rotate(45deg);
+}
+
+div.map-register {
+  width: 600px;
+  height: 300px
+}
+
+#root > div > div > main {
+  padding-top: 25px;
+}
+
+#root > div > div > main > div.columns.is-mobile > div.column.is-half > div {
+    width: 100%;
+}
+
+
+
+input.input {
+  align-content: center;
+  width: 100%;
+}
+
+#librarypic {
+  max-width: 600px;
+  max-height: 500px;
+}
+
+#btndeleteuser {
+  margin-left: 20px;
+}
+
+#userform {
+  margin-left: 10%;
+}
+
+#libraryname {
+  margin-top: 30px;
+}
+
+
+.usercolumn {
+  margin-top: 20px;
+}
+
+.loan-border-bottom {
+  border-bottom: 1px solid #d6e8ff;
+  margin: 5px 0;
+}
+
+.buttonBookUpdate {
+  margin-right: 12px;
+  background-color: #ffb734;
+}
+
+
+#libraries-popup-container {
+  max-width: 300px;
+}
